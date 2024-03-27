@@ -4,6 +4,19 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const port = 8000;
 
+// const https = require('https');
+// const fs = require('fs');
+
+// const options = {
+//   key: fs.readFileSync('path/to/private.key'),
+//   cert: fs.readFileSync('path/to/certificate.crt')
+// };
+
+// app.use((req, res, next) => {
+//   res.setHeader('Set-Cookie', 'myCookie=value; HttpOnly; Secure');
+//   next();
+// });
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
